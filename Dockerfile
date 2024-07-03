@@ -1,5 +1,5 @@
 # see versions at https://hub.docker.com/_/ghost
-FROM ghost:5.14.1
+FROM ghost:5.87.0+moya
 
 WORKDIR $GHOST_INSTALL
 COPY . .
